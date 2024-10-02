@@ -108,4 +108,36 @@ button {
     the website, in dark theme 
 ==========*/
 
+/*=============== REUSABLE CSS CLASSES ===============*/
+.container {
+  max-width: 1024px;
+  padding-inline: 2.4rem;
+  margin: 0 auto;
+}
 
+.grid {
+  display: grid;
+}
+
+.section {
+  padding: 7rem 0 3rem;
+}
+
+.section__title {
+  font-size: var(--h2-font-size);
+  margin-bottom: 1.5rem;
+}
+
+.section__title span {
+  color: var(--second-color);
+}
+
+.section__subtitle {
+  display: block;
+  font-size: var(--small-font-size);
+  color: var(--second-color);
+}
+
+.main {
+  overflow: hidden; /* For the animations ScrollReveal*/
+}
