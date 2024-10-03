@@ -21,3 +21,10 @@ let swiperPopular = new Swiper(".popular__container", {
     prevEl: ".swiper-button-prev",
   },
 });
+/*=============== VALUE ACCORDION ===============*/
+const accordionItems = document.querySelectorAll(".value__accordion-item");
+accordionItems.forEach((item) => {
+  item.addEventListener("click", () => {
+    item.classList.toggle("active-accordion");
+  });
+});
