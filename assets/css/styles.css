@@ -836,3 +836,53 @@ body.dark-theme {
     gap: 3rem;
   }
 }
+/* For medium devices */
+@media screen and (min-width: 576px) {
+  .nav__menu {
+    width: 35rem;
+  }
+  .home__search {
+    width: 45rem;
+  }
+  .contact__card {
+    grid-template-columns: repeat(2, 20rem);
+    justify-content: center;
+  }
+  .footer__content {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 767px) {
+  .home__container {
+    grid-template-columns: repeat(2, 1fr);
+    padding-top: 3rem;
+  }
+  .home__orbe {
+    align-self: flex-end;
+  }
+  .home__data {
+    padding-bottom: 3rem;
+  }
+  .logos__container {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .value__container,
+  .contact__container {
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+  }
+  .contact__images {
+    order: 1;
+  }
+  .contact__card {
+    justify-content: initial;
+  }
+  .subscribe__container {
+    padding: 5rem 25rem;
+  }
+  .footer__container {
+    grid-template-columns: repeat(2, max-content);
+    justify-content: space-between;
+  }
+}
