@@ -886,3 +886,166 @@ body.dark-theme {
     justify-content: space-between;
   }
 }
+/* For large devices */
+@media screen and (min-width: 1023px) {
+  .section {
+    padding: 12rem 0 2rem;
+  }
+  .section__title {
+    font-size: 3.6rem;
+  }
+  .section__subtitle {
+    font-size: var(--normal-font-size);
+  }
+  .nav {
+    height: 8rem;
+  }
+  .nav__menu {
+    width: initial;
+    margin-left: auto;
+  }
+  .nav__list {
+    display: flex;
+    column-gap: 5rem;
+  }
+  .nav__link {
+    color: var(--text-color-light);
+  }
+  .nav__link i {
+    display: none;
+  }
+  .nav__button {
+    display: inline-block;
+  }
+  .active-link {
+    background: none;
+    box-shadow: none;
+    color: var(--first-color);
+    font-weight: var(--font-medium);
+  }
+  .change-theme {
+    margin: 0 5rem;
+    color: var(--text-color-light);
+  }
+  .scroll-header .nav__link,
+  .scroll-header .change-theme {
+    color: var(--text-color);
+  }
+  .scroll-header .active-link {
+    color: var(--first-color);
+  }
+  .home {
+    padding-bottom: 0;
+  }
+  .home__container {
+    column-gap: 2rem;
+  }
+  .home__data {
+    padding-bottom: 4rem;
+  }
+  .home__title {
+    margin-bottom: 3rem;
+  }
+  .home__description,
+  .home__search {
+    margin-bottom: 3rem;
+  }
+  .home__value {
+    column-gap: 6rem;
+  }
+  .home__orbe {
+    width: 50.4rem;
+    height: 60.11rem;
+    border-radius: 25.6rem 25.6rem 0 0;
+  }
+  .home__img {
+    width: 47.2rem;
+    height: 63.4rem;
+    border-radius: 23.6rem 23.6rem 1.2rem 1.2rem;
+    bottom: -5rem;
+  }
+  .logos__img {
+    max-width: 20rem;
+  }
+  .popular__container {
+    padding-top: 4rem;
+  }
+  .popular__card {
+    width: 32rem;
+    padding: 1.5rem 1.5rem 3rem;
+  }
+  .value__container,
+  .contact__container {
+    align-items: flex-start;
+    column-gap: 8rem;
+  }
+  .value__orbe,
+  .contact__orbe {
+    width: 50.1rem;
+    height: 64.1rem;
+    border-radius: 25.8rem 25.8rem 1.6rem 1.6rem;
+  }
+  .value__img,
+  .contact__img {
+    width: 46.1rem;
+    height: 60.1rem;
+    border-radius: 23.8rem 23.8rem 1.2rem 1.2rem;
+  }
+  .value__img img,
+  .contact__img img {
+    max-width: initial;
+    width: 49rem;
+  }
+  .value__description,
+  .contact__description {
+    font-size: var(--normal-font-size);
+    margin-bottom: 4rem;
+  }
+  .value__accordion-title {
+    font-size: var(--normal-font-size);
+  }
+  .value__accordion-item {
+    padding: 2rem 2rem 2rem 1.5rem;
+  }
+  .value__accordion-description {
+    padding-bottom: 1.5rem;
+    font-size: var(--small-font-size);
+  }
+  .contact__card-box {
+    padding: 3rem 2rem 2rem;
+  }
+  .subscribe__container {
+    padding: 5rem 10rem;
+    border-radius: 4rem;
+    border: 12px solid var(--first-color-light);
+  }
+  .subscribe__title {
+    font-size: 3.6rem;
+    margin-bottom: 2.5rem;
+  }
+  .subscribe__description {
+    font-size: var(--normal-font-size);
+    padding: 0 15rem;
+  }
+  .subscribe__button {
+    font-size: var(--font-medium);
+  }
+  .footer__content {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .footer__title {
+    margin-bottom: 2rem;
+  }
+  .footer__links {
+    row-gap: 1.5rem;
+  }
+  .footer__info {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-bottom: 3rem;
+  }
+  .show-scroll {
+    bottom: 8rem;
+    right: 3rem;
+  }
+}
