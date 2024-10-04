@@ -779,3 +779,60 @@ body.dark-theme {
 .show-scroll {
   bottom: 12rem;
 }
+
+/*=============== BREAKPOINTS ===============*/
+/* For small devices */
+@media screen and (max-width: 350px) {
+  .container {
+    padding-inline: 1.6rem;
+  }
+  .section {
+    padding: 5rem 0 1.5rem;
+  }
+  .home {
+    padding-bottom: 0;
+  }
+  .contact__card {
+    grid-template-columns: repeat(1, 18rem);
+    justify-content: center;
+  }
+}
+@media screen and (max-width: 320px) {
+  .nav__menu {
+    padding: 1.5rem 3rem;
+  }
+  .home__value {
+    column-gap: 2rem;
+  }
+  .home__img {
+    width: 22rem;
+    height: 28rem;
+  }
+  .home__orbe {
+    width: 24rem;
+    height: 26.4rem;
+  }
+  .logos__container {
+    gap: 3rem 1.5rem;
+  }
+  .popular__card {
+    width: 24rem;
+    padding: 1rem 1rem 1.5rem;
+  }
+  .value__img,
+  .contact__img {
+    width: 22rem;
+    height: 26rem;
+  }
+  .value__orbe,
+  .contact__orbe {
+    width: 23.6rem;
+    height: 28rem;
+  }
+  .subscribe__container {
+    padding: 3rem 2rem;
+  }
+  .footer__content {
+    gap: 3rem;
+  }
+}
