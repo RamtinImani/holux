@@ -10,4 +10,7 @@
 
 ### 🪄 `Made With 🤍`
 ---
+## 🚀 Live Demo:
+🔗 [View Demo](https://ramtinimani.github.io/holux/)
+## 📸 Preview Image:
 ![preview image](/preview.png)
